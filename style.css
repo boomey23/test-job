@@ -1,0 +1,67 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #ffecd2, #fcb69f);
+  color: #333;
+  text-align: center;
+  padding: 2rem;
+}
+
+header {
+  background: linear-gradient(to right, #ff6a00, #ee0979);
+  color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  margin-bottom: 2rem;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  width: 250px;
+  padding: 1.5rem;
+  border-radius: 12px;
+  color: white;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Color variations */
+.card.red {
+  background: linear-gradient(to bottom right, #ff416c, #ff4b2b);
+}
+
+.card.blue {
+  background: linear-gradient(to bottom right, #2193b0, #6dd5ed);
+}
+
+.card.green {
+  background: linear-gradient(to bottom right, #56ab2f, #a8e063);
+}
+
+.card.yellow {
+  background: linear-gradient(to bottom right, #f7971e, #ffd200);
+}
+
+footer {
+  margin-top: 2rem;
+  color: #555;
+  font-size: 0.9rem;
+}
